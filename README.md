@@ -2,6 +2,26 @@
 
 ## Quick Start
 
+To start the cluster:
+
+```bash
+$ make up
+```
+
+To pause the cluster:
+
+```bash
+$ make halt
+```
+
+To shut down the cluster:
+
+```bash
+$ make down
+```
+
+Or,
+
 ```bash
 $ cd master-1
 $ vagrunt up
