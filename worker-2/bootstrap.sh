@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 # Doing pre-flight works
-hostnamectl set-hostname worker-2
 sed -i 's|http://archive|http://bd.archive|g' /etc/apt/sources.list
 
 # Install dependencies

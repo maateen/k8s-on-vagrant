@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 # Doing pre-flight works
-hostnamectl set-hostname master-1
 sed -i 's|http://archive|http://bd.archive|g' /etc/apt/sources.list
 
 # Install dependencies
